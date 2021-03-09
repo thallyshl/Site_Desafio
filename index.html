@@ -22,30 +22,30 @@
         }
     </style>
 </head>
-<body>
+<body id='teste'>
     <div id='pagina'>
         <h1>Acesse os desafios abaixo.</h1>
         <p>Os desafios aqui demonstram o meu aprendizado até agora em <abbr title="Hypertext Markup language">HTML</abbr> e um pouco de <abbr title="Cascating style sheets">CSS</abbr>.</p>
         <ul id = 'list'><strong>Desafios:</strong>
             <li><a href="page_desafio_00.html" target="_self" rel="next">Desafio 01</a></li>
             <li><a href="page_desafio_01.html" target="_self" rel="next">Desafio 02</a></li>
+            <li><a href="page_desafio_02.html" target="_self" rel="next">Desafio 03</a></li>
         <input type="button" value="Dark Mode" id="DarkMode" onclick="clicar()">
         <input type="button" value="White Mode" id="whitekMode" onclick="clicarWM()">
         </ul>
     </div>
 
     <script>
-        var divblack = document.getElementById('pagina')
-        var divwhite = document.getElementById('pagina')
+        var teste = document.getElementById('teste')
         var lista = document.getElementById('list')
         function clicar() {
-            divblack.style.background = 'black'
-            divblack.style.color = 'white'
+            teste.style.background = 'black'
+            teste.style.color = 'white'
             lista.style.color='white'
         }
         function clicarWM() {
-            divblack.style.background = null
-            divblack.style.color = 'black'
+            teste.style.background = null
+            teste.style.color = 'black'
             lista.style.color = ('black')
         }
     </script>

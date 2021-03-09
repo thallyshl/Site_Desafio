@@ -13,14 +13,14 @@
             color: rgb(0, 0, 0);
             font: normal 15pt Arial;
             margin-left: 20px;
-            margin-right: 650;
+            margin-right: 700;
         }
         p#final {
             margin-top: 30px;
         }
     </style>
 </head>
-<body>
+<body id="teste">
     <div id='pagina'>
         <h1>Desafio do mapa mundi</h1>
         <p>Desafio que consiste em montar o mapa mundi com nove imagens diferente.</p>
@@ -41,19 +41,13 @@
     </div>
 
     <script>
-        var divblack = document.getElementById('pagina')
-        var divwhite = document.getElementById('pagina')
-        var lista = document.getElementById('list')
+        var teste = document.getElementById('teste')
         function clicar() {
-            divblack.style.background = 'black'
-            divblack.style.color = 'white'
-            lista.style.color = 'white'
-        }
+            teste.style.background = 'black'
+            teste.style.color = 'white'        }
         function clicarWM() {
-            divblack.style.background = null
-            divblack.style.color = 'black'
-            lista.style.color = ('black')
-        }
+            teste.style.background = null
+            teste.style.color = 'black'        }
     </script>
 
 </body>
