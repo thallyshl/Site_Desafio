@@ -1,0 +1,105 @@
+@charset "UTF-8";
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: aliceblue;
+    color: black;
+    font: normal 15pt Arial;
+    margin-left: 20px;
+    margin-right: 700px;
+    }
+#all {
+    background-color: aliceblue;
+    color: black;
+    font: normal 15pt Arial;
+    margin: 0px;
+}
+p#final {
+    margin-top: 30px;
+    }
+#final3 {
+    position: absolute;
+    margin-top: 730px;
+    margin-left: 970px;
+}
+div#principal {
+    block-size: 100%;
+    background-color: null;
+    }
+#flex {
+    display: flex;
+    justify-content: space-around;
+    height: 800px;
+}
+#divleft {
+    padding-left: 30px;
+    background-color: white;
+    border-right: 0px;
+    margin-left: 100px;
+    flex: 1;
+    margin-top: 100px;
+    }
+#divright {
+    background-image: linear-gradient(to right, white, rgb(53, 53, 53));  
+    margin-right: 100px;   
+    flex: 1.5;
+    margin-top: 100px;
+    text-align: center;
+    }
+.cadastro {
+    width: 550px;
+    height: 600px;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 5px gray;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.caixa {
+    background-color: rgba(233, 233, 233, 0.445);
+    width: 300px;
+    padding: 10px;
+    margin: 8px;
+    font: 18px normal arial;
+    border: 0.2px solid gray;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.363);
+}
+#cadastrar {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(128, 128, 128, 0.5);
+    width:300px;
+    font-weight: bold;
+    margin-top: 80px;
+    color: black;
+}
+#office {
+    width: 100%;
+    height: 600px;
+    padding: auto;
+    border-radius: 10px;
+    opacity: 0.2;
+}
+#office:hover {
+    opacity: 100%;
+}
+#welcome {
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 250px;
+    width: 200pxpx;
+    margin-top: 250px;
+}
+#moded {
+    position: absolute;
+    margin-top: 730px;
+    margin-left: -1030px;
+}
+#modew {
+    position: absolute;
+    margin-top: 730px;
+    margin-left: -850px;
+}
