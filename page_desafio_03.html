@@ -23,15 +23,18 @@
             </form>
         </div>
         <div id="divright" class="cadastro">
+            <div id="welcome" onmouseenter="turnwhite()" onmouseout="turnblack()">
+                <h1>Welcome!</h1>
+                <h2>Bem vindo!</h2>
+            </div>
             <img id="office" src="https://images.pexels.com/photos/225502/pexels-photo-225502.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="office image" onmouseenter="turnwhite()" onmouseout="turnblack()">
         </div>
-        <div id="welcome">
-        <h1>Welcome!</h1>
-        <h2>Bem vindo!</h2>
+        
+        <div id="divfinal">
+            <input type="button" value="Dark mode" id="moded" onclick="clicar()">
+            <input type="button" value="White mode" id="modew" onclick="clicarWM()">
+            <p id="final3"><strong><a href="index.html" target="_self" rel="prev">&#x21E6 Pagina inicial</a></strong></p>
         </div>
-        <input type="button" value="Dark mode" id="moded" onclick="clicar()">
-        <input type="button" value="White mode" id="modew" onclick="clicarWM()">
-        <p id="final3"><strong><a href="index.html" target="_self" rel="prev">&#x21E6 Pagina inicial</a></strong></p>
     </div>
     <script>
         var welcome = document.getElementById('welcome')
