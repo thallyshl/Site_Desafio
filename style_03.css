@@ -1,10 +1,8 @@
 #flex {
     position: absolute;
-    text-align: justify;
 }
 #divleft {
     width: 37%;
-    display: inline-block;
     padding-left: 30px;
     background-color: white;
     border-right: 0px;
@@ -17,9 +15,18 @@
     float: left;
     background-image: linear-gradient(to right, white, rgb(53, 53, 53));  
     margin-right: 8.33%;   
-    display: inline-block;
     margin-top: 9%;
     }
+#welcome {
+    position: absolute;
+    color: black;
+    font-weight: bold;
+    font-size: 26px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 20%;
+    left: 50%;
+    top: 25%;
+}
 .cadastro {
     width: 550px;
     height: 600px;
@@ -52,18 +59,8 @@
     border-radius: 10px;
     opacity: 0.2;
 }
-#welcome {
-    position: absolute;
-    color: black;
-    font-weight: bold;
-    font-size: 26px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    bottom: 45%;
-    right: 32%;
-    width: 20%;
-}
 #divfinal {
-    transform: translateY(1%);
-    margin-left: 9%;
-    margin-right: 11%;
+    position: absolute;
+    left: 9%;
+    bottom: -200px;
 }
